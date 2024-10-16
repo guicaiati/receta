@@ -1,0 +1,248 @@
+{
+    "menu": {
+        "miercoles_16_10": {
+            "desayuno": {
+                "nombre": "Batido de frutas y avena",
+                "ingredientes": [
+                    "1 banana",
+                    "1/2 taza de avena (50 g)",
+                    "1 taza de leche (250 ml)",
+                    "1 cucharada de semillas de lino"
+                ],
+                "instrucciones": [
+                    "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+                    "Consumir fresco."
+                ],
+                "imagen": "batido_frutas_avena.webp"
+            },
+            "almuerzo": {
+                "nombre": "Wrap de atún con tortilla integral",
+                "ingredientes": [
+                    "1 tortilla integral (preparada según la receta)",
+                    "1 lata de atún (escurrido)",
+                    "1/2 taza de lechuga picada",
+                    "1/4 de zanahoria rallada",
+                    "2 cucharadas de yogur natural",
+                    "Sal y pimienta al gusto",
+                    "1 tomate en rodajas (opcional)"
+                ],
+                "instrucciones": [
+                    "En un tazón, mezcla el atún, la lechuga, la zanahoria, el yogur, sal y pimienta.",
+                    "Coloca el relleno en el centro de la tortilla.",
+                    "Dobla los bordes y enrolla para formar el wrap."
+                ],
+                "imagen": ""
+            },
+            "merienda": {
+                "nombre": "Yogur natural con frutas",
+                "ingredientes": [
+                    "1 taza de yogur (200 ml)",
+                    "1 pera en cubos"
+                ],
+                "instrucciones": [
+                    "Cortar la pera en cubos y servirla con el yogur."
+                ],
+                "imagen": "yogur_pera.webp"
+            }
+        },
+        "jueves_17_10": {
+            "desayuno": {
+                "nombre": "Tostadas de pan integral con palta",
+                "ingredientes": [
+                    "2 rebanadas de pan integral",
+                    "1/2 palta",
+                    "1 vaso de leche (250 ml)"
+                ],
+                "instrucciones": [
+                    "Tostar el pan integral y untar la palta.",
+                    "Acompañar con un vaso de leche."
+                ],
+                "imagen": "tostadas_palta.webp"
+            },
+            "merienda": {
+                "nombre": "Maní sin sal y banana",
+                "ingredientes": [
+                    "50 g de maní sin sal",
+                    "1 banana"
+                ],
+                "instrucciones": [
+                    "Servir el maní junto con la banana."
+                ],
+                "imagen": "mani_banana.webp"
+            }
+        },
+        "viernes_18_10": {
+            "desayuno": {
+                "nombre": "Batido de kiwi y avena",
+                "ingredientes": [
+                    "1 kiwi",
+                    "1/2 taza de avena",
+                    "1 taza de leche"
+                ],
+                "instrucciones": [
+                    "Licuar todos los ingredientes hasta obtener una mezcla suave."
+                ],
+                "imagen": "batido_kiwi_avena.webp"
+            },
+            "vianda_almuerzo": {
+                "nombre": "Ensalada de lentejas y zanahoria",
+                "ingredientes": [
+                    "1 taza de lentejas cocidas (150 g)",
+                    "1 zanahoria rallada",
+                    "1/2 pepino en rodajas",
+                    "1 cucharada de aceite de oliva",
+                    "Jugo de limón"
+                ],
+                "instrucciones": [
+                    "Mezclar todos los ingredientes y guardar en un recipiente hermético."
+                ],
+                "imagen": "ensalada_lentejas_zanahoria.webp"
+            },
+            "merienda": {
+                "nombre": "Yogur natural con semillas",
+                "ingredientes": [
+                    "1 taza de yogur (200 ml)",
+                    "1 cucharada de semillas de chía",
+                    "Nueces picadas"
+                ],
+                "instrucciones": [
+                    "Servir el yogur con las semillas y nueces."
+                ],
+                "imagen": "yogur_semillas.webp"
+            }
+        },
+        "sabado_19_10": {
+            "desayuno": {
+                "nombre": "Batido de remolacha y manzana",
+                "ingredientes": [
+                    "1 remolacha cocida",
+                    "1 manzana",
+                    "1 taza de leche"
+                ],
+                "instrucciones": [
+                    "Licuar todos los ingredientes hasta obtener una mezcla suave."
+                ],
+                "imagen": "batido_remolacha_manzana.webp"
+            },
+            "almuerzo": {
+                "nombre": "Filete de merluza al horno con calabaza",
+                "ingredientes": [
+                    "150 g de merluza",
+                    "1 taza de calabaza en cubos",
+                    "1 cucharada de aceite de oliva",
+                    "Sal y pimienta"
+                ],
+                "instrucciones": [
+                    "Hornear la merluza y la calabaza con aceite de oliva, sal y pimienta a 180°C durante 20 minutos."
+                ],
+                "imagen": "merluza_calabaza.webp"
+            },
+            "merienda": {
+                "nombre": "Pan integral casero con mantequilla de almendras",
+                "ingredientes": [
+                    "2 rebanadas de pan integral",
+                    "1 cucharada de mantequilla de almendras",
+                    "1 banana"
+                ],
+                "instrucciones": [
+                    "Untar la mantequilla de almendras en el pan y acompañar con la banana."
+                ],
+                "imagen": "pan_mantequilla_banana.webp"
+            }
+        },
+        "domingo_20_10": {
+            "desayuno": {
+                "nombre": "Tostadas de pan integral con palta y huevo",
+                "ingredientes": [
+                    "2 rebanadas de pan integral",
+                    "1/2 palta",
+                    "1 huevo",
+                    "1 vaso de jugo de naranja natural"
+                ],
+                "instrucciones": [
+                    "Tostar el pan integral y untar con palta.",
+                    "Servir con el huevo cocido y el jugo de naranja."
+                ],
+                "imagen": "tostadas_palta_huevo.webp"
+            },
+            "almuerzo": {
+                "nombre": "Wrap de caballa y rúcula",
+                "ingredientes": [
+                    "1 rapidita integral",
+                    "1 lata de caballa al natural (desmenuzada)",
+                    "1/2 taza de rúcula"
+                ],
+                "instrucciones": [
+                    "Colocar la caballa y la rúcula en la rapidita, enrollar y servir."
+                ],
+                "imagen": "wrap_caballa_rucula.webp"
+            },
+            "merienda": {
+                "nombre": "Yogur con mix de semillas",
+                "ingredientes": [
+                    "1 taza de yogur (200 ml)",
+                    "1 cucharada de mix de semillas (chía, lino, girasol)"
+                ],
+                "instrucciones": [
+                    "Servir el yogur con el mix de semillas encima."
+                ],
+                "imagen": "yogur_mix_semillas.webp"
+            }
+        }
+    },
+    "recetas": {
+        "pan_integral": {
+            "nombre": "Pan Integral Rápido (Sin Levadura)",
+            "ingredientes": [
+                "2 tazas de harina integral",
+                "1 cucharadita de bicarbonato de sodio",
+                "1/2 cucharadita de sal",
+                "1 taza de agua tibia",
+                "2 cucharadas de aceite de oliva",
+                "1 cucharada de miel (opcional, para darle un toque de dulzor)"
+            ],
+            "instrucciones": [
+                "Precalienta el horno a 180°C.",
+                "Mezcla la harina integral, el bicarbonato de sodio y la sal en un bowl grande.",
+                "Agrega el agua tibia, el aceite de oliva y la miel (si decides usarla). Remueve con una cuchara hasta integrar todos los ingredientes.",
+                "Forma la masa con las manos hasta que esté suave y uniforme. No es necesario amasar mucho.",
+                "Coloca la masa en un molde para pan ligeramente engrasado o forma un pan redondo y colócalo en una bandeja para horno.",
+                "Haz un corte en forma de cruz en la parte superior del pan para que se cocine de manera uniforme.",
+                "Hornea durante 30-35 minutos o hasta que el pan esté dorado y suene hueco al golpear la base.",
+                "Deja enfriar antes de cortar."
+            ],
+            "imagen": "pan_integral_rapido.webp"
+        },
+        "tortilla_integral": {
+            "nombre": "Tortilla Integral",
+            "ingredientes": [
+                "1 1/2 tazas de harina integral",
+                "1/2 cucharadita de sal",
+                "1/4 cucharadita de bicarbonato de sodio",
+                "3/4 de taza de agua caliente"
+            ],
+            "instrucciones": [
+                "En un bowl, mezcla la harina, la sal y el bicarbonato.",
+                "Agrega la agua caliente poco a poco hasta formar una masa suave.",
+                "Divide la masa en bolitas y estira cada una en forma de tortilla.",
+                "Cocina en un sartén caliente por 1-2 minutos de cada lado."
+            ],
+            "imagen": "tortilla-integral-atun.webp"
+        },
+        "chia_pudding": {
+            "nombre": "Chia Pudding",
+            "ingredientes": [
+                "1/2 taza de semillas de chía",
+                "2 tazas de leche (regular o vegetal)",
+                "1-2 cucharadas de miel o sirope (opcional)",
+                "Frutas frescas y nueces (opcional)"
+            ],
+            "instrucciones": [
+                "Mezcla las semillas de chía, la leche y la miel en un tazón o frasco.",
+                "Cubre y refrigera por al menos 2 horas o toda la noche.",
+                "Revuelve y añade frutas y nueces al gusto."
+            ],
+            "imagen": ""
+        }
+    }
+}
