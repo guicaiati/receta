@@ -95,9 +95,9 @@
                         recetasHTML += `
                             <h3>${tipo.charAt(0).toUpperCase() + tipo.slice(1)}: ${receta.nombre}</h3>
                             ${receta.imagen ? `
-                                <img src="/imagenes/${receta.imagen}" alt="${receta.nombre}" class="recipe-image" />
+                                <img src="imagenes/${receta.imagen}" alt="${receta.nombre}" class="recipe-image" />
                                 <p class="caption">Imagen de la receta.</p>
-                                <p class="image-url">URL: /imagenes/${receta.imagen}</p>` : ''}
+                                <p class="image-url">URL: imagenes/${receta.imagen}</p>` : ''}
                             <ul>
                                 <li>Ingredientes:</li>
                                 <ul>${receta.ingredientes.map(ingrediente => `<li>${ingrediente}</li>`).join('')}</ul>
@@ -121,9 +121,9 @@
                         <div id="${key}">
                             <h3 class"h1">${receta.nombre}</h3>
                             ${receta.imagen ? `
-                                <img src="/imagenes/${receta.imagen}" alt="${receta.nombre}" class="recipe-image" />
+                                <img src="imagenes/${receta.imagen}" alt="${receta.nombre}" class="recipe-image" />
                                 <p class="caption">Imagen de la receta.</p>
-                                <p class="image-url">URL: /imagenes/${receta.imagen}</p>` : ''}
+                                <p class="image-url">URL: imagenes/${receta.imagen}</p>` : ''}
                             <ul>
                                 <li>Ingredientes:</li>
                                 <ul>${receta.ingredientes.map(ingrediente => `<li>${ingrediente}</li>`).join('')}</ul>
