@@ -1,0 +1,66 @@
+/* 
+================================================================================
+                            Estilos para Recetas Semanales
+--------------------------------------------------------------------------------
+Este archivo contiene los estilos para el diseño de la página de recetas semanales.
+Incluye estilos generales, para imágenes, leyendas, URLs y secciones ocultas.
+================================================================================
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.content {
+    padding: 20px;
+    margin-right: calc(240px + 20px);
+}
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.toc {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 240px;
+    padding: 20px;
+    background: #343a40;
+    color: white;
+    height: 100vh;
+    overflow-y: auto;
+}
+.toc h4 {
+    margin-bottom: 15px;
+}
+.toc ul {
+    list-style: none;
+    padding: 0;
+}
+.toc a {
+    color: white;
+    text-decoration: none;
+}
+.toc a:hover {
+    text-decoration: underline;
+}
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+.image-url {
+    text-align: center;
+    font-size: 0.8em;
+    color: #007bff;
+}
+.pasadas {
+    display: none; /* Ocultar inicialmente */
+}

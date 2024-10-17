@@ -5,68 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas Semanales</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Archivo CSS externo -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-        }
-        .content {
-            padding: 20px;
-            margin-right: calc(240px + 20px);
-        }
-        h1 {
-            text-align: center;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        .toc {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 240px;
-            padding: 20px;
-            background: #343a40;
-            color: white;
-            height: 100vh;
-            overflow-y: auto;
-        }
-        .toc h4 {
-            margin-bottom: 15px;
-        }
-        .toc ul {
-            list-style: none;
-            padding: 0;
-        }
-        .toc a {
-            color: white;
-            text-decoration: none;
-        }
-        .toc a:hover {
-            text-decoration: underline;
-        }
-        .recipe-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        .caption {
-            text-align: center;
-            font-size: 0.9em;
-            color: #666;
-        }
-        .image-url {
-            text-align: center;
-            font-size: 0.8em;
-            color: #007bff;
-        }
-        .pasadas {
-            display: none; /* Ocultar inicialmente */
-        }
-    </style>
+    
 </head>
 <body>
     <div class="toc">
@@ -98,10 +41,9 @@
                                 <img src="imagenes/${receta.imagen}" alt="${receta.nombre}" class="recipe-image" />
                                 <p class="caption">Imagen de la receta.</p>
                                 <p class="image-url">URL: imagenes/${receta.imagen}</p>` : ''}
-                            <ul>
-                                <li>Ingredientes:</li>
-                                <ul>${receta.ingredientes.map(ingrediente => `<li>${ingrediente}</li>`).join('')}</ul>
-                            </ul>
+                            <h4>Ingredientes:</h4>
+                            <ul>${receta.ingredientes.map(ingrediente => `<li>${ingrediente}</li>`).join('')}</ul>
+                            <h4>Instrucciones:</h4>
                             <ol>${receta.instrucciones.map(instruccion => `<li>${instruccion}</li>`).join('')}</ol>
                         `;
                     });
@@ -119,15 +61,14 @@
                     recetasMenuHTML += `<li><a href="#${key}">${receta.nombre}</a></li>`;
                     recetasHTML += `
                         <div id="${key}">
-                            <h3 class"h1">${receta.nombre}</h3>
+                            <h3>${receta.nombre}</h3>
                             ${receta.imagen ? `
                                 <img src="imagenes/${receta.imagen}" alt="${receta.nombre}" class="recipe-image" />
                                 <p class="caption">Imagen de la receta.</p>
                                 <p class="image-url">URL: imagenes/${receta.imagen}</p>` : ''}
-                            <ul>
-                                <li>Ingredientes:</li>
-                                <ul>${receta.ingredientes.map(ingrediente => `<li>${ingrediente}</li>`).join('')}</ul>
-                            </ul>
+                            <h4>Ingredientes:</h4>
+                            <ul>${receta.ingredientes.map(ingrediente => `<li>${ingrediente}</li>`).join('')}</ul>
+                            <h4>Instrucciones:</h4>
                             <ol>${receta.instrucciones.map(instruccion => `<li>${instruccion}</li>`).join('')}</ol>
                         </div>
                     `;
